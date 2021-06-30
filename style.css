@@ -1,0 +1,151 @@
+/*
+*********
+Reset
+*********
+*/
+
+
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+/*
+*********
+Background
+*********
+*/
+
+body {
+  background-color: #196037;
+  margin: 1pc 8pc;
+}
+
+/*
+*********
+Heading and navigation bar
+*********
+*/
+#heading {
+  display: block;
+  background-color: #196037;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 60px;
+  margin: auto;
+}
+
+h3 {
+  text-align: left;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 30px;
+}
+
+intro {
+  clear: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+
+.nav li {
+  padding: 8px;
+  display: inline-block;
+}
+
+
+/*
+*********
+Images
+*********
+*/
+
+#image1 {
+  width: 250px;
+  margin: 20px;
+  display: inline-block;
+}
+
+#frame1 {
+  width: 290px;
+  height: 370px;
+  border: 3px solid rgb(5, 46, 5);
+  background: white;
+  margin: 65px;
+  display: inline-block;
+  float: left;
+}
+
+/*
+*********
+Main content
+*********
+*/
+
+p {
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-indent: 0;
+}
+
+#mainpage p {
+  display: block;
+  text-align: left;
+  margin: 80px 0px;
+}
+
+#mainpage {
+  display: inline-block;
+}
+
+intro {
+  margin: 20pc 0 0 0;
+}
+
+#block2 {
+  display: block;
+}
+
+#mainpage ul {
+  list-style-type: none;
+  list-style-position: outside;
+  text-align: left;
+  padding: 0px;
+  margin-left: 1em;
+ }
+
+#mainpage li{
+  text-align: left;
+  list-style-position: outside;
+  margin: 40px 0 0 1em;
+  padding: 0px;
+}
