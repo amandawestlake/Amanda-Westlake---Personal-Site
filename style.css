@@ -4,7 +4,6 @@ Reset
 *********
 */
 
-
 html,body,address,blockquote,div,
 form,fieldset,caption,
 h1,h2,h3,h4,h5,h6,
@@ -30,18 +29,19 @@ body {
 Heading and navigation bar
 *********
 */
-#heading {
+
+ #heading {
   display: block;
   background-color: #196037;
-  padding: 30px;
-  margin: auto;
+  margin: 2pc 0 0 0;
   text-align: center;
 }
 
 h1 {
   text-align: center;
   color: white;
-  font-family: arial, sans-serif;
+  //font-family: arial, sans-serif;
+  font-family: calibri;
   font-size: 60px;
   margin: auto;
 }
@@ -51,10 +51,6 @@ h3 {
   color: white;
   font-family: arial, sans-serif;
   font-size: 30px;
-}
-
-intro {
-  clear: none;
 }
 
 a {
@@ -90,24 +86,33 @@ Images
 #image1 {
   width: 250px;
   margin: 20px;
-  display: inline-block;
+  display: block;
+  float: left; 
 }
 
 #frame1 {
   width: 290px;
   height: 370px;
-  border: 3px solid rgb(5, 46, 5);
-  background: white;
-  margin: 65px;
-  display: inline-block;
+  border: 6px solid #FFB8EE;
+  background-color: white;
+  margin: 10px 40px 30px 0;
+  display: block;
   float: left;
-}
+} 
 
+/* #image1 {
+  width: 50px;
+  height: 100px;
+  display: block;
+  float: left;
+  margin: 40px;
+}
 /*
 *********
 Main content
 *********
 */
+
 
 p {
   color: white;
@@ -120,19 +125,28 @@ p {
 #mainpage p {
   display: block;
   text-align: left;
-  margin: 80px 0px;
+  margin: 40px 0px;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-indent: 0;
 }
 
 #mainpage {
   display: inline-block;
+  margin: 2pc 0 0 0;
 }
 
-intro {
-  margin: 20pc 0 0 0;
-}
 
 #block2 {
   display: block;
+  margin: 50px 0 0 0;
+}
+
+#block3 {
+  display: block;
+  margin: 50px 0 0 0;
 }
 
 #mainpage ul {
@@ -148,4 +162,51 @@ intro {
   list-style-position: outside;
   margin: 40px 0 0 1em;
   padding: 0px;
+}
+
+
+a {
+  color: #FFB8EE;
+}
+
+a:hover {
+  color: rgb(243, 141, 219);
+}
+
+#portfoliolist p {
+  margin: 0;
+  padding: 0;
+}
+
+
+#block2 ul, #block3 ul {
+  list-style-type: disc;
+  color: white;
+  font-size: 30px;
+}
+
+
+/*
+********
+Footer 
+********
+*/
+footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 40px 0 40px;
+}
+
+
+.space {
+  display: block;
+  padding: 30px;
+}
+
+#video {
+  display: block;
+  text-align: center;
 }
