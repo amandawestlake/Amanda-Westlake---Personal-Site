@@ -33,14 +33,13 @@ Heading and navigation bar
  #heading {
   display: block;
   background-color: #196037;
-  margin: 2pc 0 0 0;
+  margin: 2pc auto;
   text-align: center;
 }
 
 h1 {
   text-align: center;
   color: white;
-  //font-family: arial, sans-serif;
   font-family: calibri;
   font-size: 60px;
   margin: auto;
@@ -63,7 +62,22 @@ a {
   font-weight: bold;
 }
 
+#name {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav ul {
+  text-align: center;
   list-style-type: none;
   display: inline;
   margin: 0;
@@ -72,7 +86,7 @@ a {
 }
 
 .nav li {
-  padding: 8px;
+  padding: .3pc;
   display: inline-block;
 }
 
