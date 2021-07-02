@@ -20,6 +20,7 @@ Background
 */
 
 body {
+  display: block;
   background-color: #196037;
   margin: 1pc 4pc;
 }
@@ -113,7 +114,7 @@ Images
 }
 
 #frame1 {
-  width: 250px;
+  width: 310px;
   /* height: 300px; */
   border: 6px solid #FFB8EE;
   background-color: white;
@@ -136,6 +137,13 @@ Main content
 *********
 */
 
+#mainpage {
+  display: block;
+}
+
+.spacer {
+  height: 10px;
+}
 
 p {
   color: white;
@@ -144,6 +152,7 @@ p {
   font-weight: bold;
   text-indent: 0;
 }
+
 
 #mainpage p {
   display: block;
@@ -190,11 +199,15 @@ Footer
 ********
 */
 footer {
-  display: block;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin: 60px auto;
+  left:0;
+   bottom:0;
+   height:50px;
+   width:100%;
+   display: block;
 }
 
 footer ul {
@@ -211,10 +224,12 @@ footer li {
   display: inline-block;
 }
 
-/* footer a {
-  margin: 0 40px 0 40px;
-} */
 
+/*
+********
+Video
+********
+*/
 
 #video {
   display: block;
@@ -227,17 +242,29 @@ iframe {
   height: 250px;
 }
 
+
+/*
+********
+Sizing
+********
+*/
 @media screen and (max-width: 800px) {
   iframe {
     width: 274px;
   height: 161px;
   }
+
+  #mainpage p {
+    font-size: 10px;
+    margin: 20px 0;
+  }
+
+  #mainpage a {
+    font-size: 10px;
+  }
+
+  #frame1 {
+    width: 250px;
+  }
 }
 
-#mainpage {
-  display: block;
-}
-
-.spacer {
-  height: 10px;
-}
