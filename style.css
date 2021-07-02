@@ -45,6 +45,11 @@ h1 {
   margin: auto;
 }
 
+h1:hover {
+  text-shadow:1px 1px 10px rgb(243, 141, 219), 1px 1px 10px #FFB8EE;
+}
+
+
 h3 {
   text-align: left;
   color: white;
@@ -53,13 +58,16 @@ h3 {
 }
 
 a {
+  color: #FFB8EE;
   text-decoration: none;
-  /*display: inline;*/
   text-align: center;
-  color: white;
   font-family: arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+a:hover {
+  color: rgb(243, 141, 219);
 }
 
 #name {
@@ -114,6 +122,7 @@ Images
   float: left;
 } 
 
+
 /* #image1 {
   width: 50px;
   height: 100px;
@@ -162,14 +171,6 @@ p {
   padding: 0px;
 }
 
-a {
-  color: #FFB8EE;
-}
-
-a:hover {
-  color: rgb(243, 141, 219);
-}
-
 #portfoliolist p {
   margin: 0;
   padding: 0;
@@ -215,11 +216,6 @@ footer li {
 } */
 
 
-.space {
-  display: block;
-  padding: 30px;
-}
-
 #video {
   display: block;
   text-align: center;
@@ -243,5 +239,5 @@ iframe {
 }
 
 .spacer {
-  height: 2px;
+  height: 10px;
 }
