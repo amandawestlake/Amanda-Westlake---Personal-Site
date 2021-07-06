@@ -107,15 +107,16 @@ Images
 */
 
 #image1 {
-  width: 100%;
+  width: 300px;
+  /* width: 100%; */
   margin: 0;
-  display: block;
+  /* display: block; */
   float: left; 
 }
 
 #frame1 {
-  width: 310px;
-  /* height: 300px; */
+  width: 300px;
+  height: 400px;
   border: 6px solid #FFB8EE;
   background-color: white;
   margin: 0px 40px 30px 0;
@@ -138,6 +139,8 @@ Main content
 */
 
 #mainpage {
+  /* display: flex;
+  flex-direction: row; */
   display: block;
 }
 
@@ -157,7 +160,7 @@ p {
 #mainpage p {
   display: block;
   text-align: left;
-  margin: 40px 0px;
+  margin: 20px 0px;
   color: white;
   font-family: arial, sans-serif;
   font-size: 20px;
@@ -224,6 +227,9 @@ footer li {
   display: inline-block;
 }
 
+#articles {
+  margin-top: 40px;
+}
 
 /*
 ********
@@ -235,6 +241,7 @@ Video
   display: block;
   text-align: center;
   width: 100%;
+  
 }
 
 iframe {
@@ -251,7 +258,7 @@ Sizing
 @media screen and (max-width: 800px) {
   iframe {
     width: 274px;
-  height: 161px;
+    height: 161px;
   }
 
   #mainpage p {
@@ -263,8 +270,13 @@ Sizing
     font-size: 10px;
   }
 
-  #frame1 {
+  /* #frame1 {
     width: 250px;
+  } */
+
+  body {
+  margin-left: 20px;
+  margin-right: 20px;
   }
 }
 
