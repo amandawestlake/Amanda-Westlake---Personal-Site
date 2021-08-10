@@ -146,13 +146,12 @@ Flexbox and Flexbox items
   justify-content: center;
 }
 
-#imgdescrip {
+.imgdescrip {
   display: block;
   margin-left: 100px;
   margin-right: 100px;
   text-align: center; 
 }
-
 
 /*
 *********
@@ -221,7 +220,6 @@ p {
   color: white;
   font-size: 30px;
 }
-
 
 /*
 ********
