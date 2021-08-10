@@ -327,8 +327,13 @@ Sizing
   margin-right: 25px; */
   }
 
-  #imgdescrip {
-    margin: 10px;
+  .imgdescrip {
+    margin: 10px 10px;
+  }
+
+  .item {
+    height: 170px;
+    margin: 5px 10px;
   }
 }
 
