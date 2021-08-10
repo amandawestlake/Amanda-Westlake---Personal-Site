@@ -290,8 +290,7 @@ Sizing
 
   body {
     display: block;
-    margin-left: 0px;
-    margin-right: 20px;
+    margin: 0 auto;
   }
 
   body p {
@@ -301,7 +300,7 @@ Sizing
 
   #mainpage p {
     font-size: 16px;
-    margin: 20px 0;
+    margin: 20px auto;
   }
 
   body a {
@@ -314,6 +313,7 @@ Sizing
     display: block;
     clear: both;
     float: left;
+    margin-left: 10px;
   }
 
   #image1 {
