@@ -21,7 +21,7 @@ Background
 
 body {
   display: block;
-  background-color: #196037;
+  background-color: rgb(48, 114, 57);
   margin: 1pc 4pc;
 }
 
@@ -33,7 +33,7 @@ Heading and navigation bar
 
  #heading {
   display: block;
-  background-color: #196037;
+  background-color: rgb(48, 114, 57);
   margin: 2pc auto;
   text-align: center;
 }
@@ -96,6 +96,7 @@ a:hover {
 
 .nav li {
   padding: .3pc;
+  margin: 15px;
   display: inline-block;
 }
 
