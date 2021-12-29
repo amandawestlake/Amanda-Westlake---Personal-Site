@@ -44,6 +44,7 @@ h1 {
   font-family: calibri;
   font-size: 60px;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 h1:hover {
@@ -96,7 +97,7 @@ a:hover {
 
 .nav li {
   padding: .3pc;
-  margin: 15px;
+  margin: 15px 30px;
   display: inline-block;
 }
 
@@ -265,6 +266,7 @@ Video
 */
 
 #video {
+  margin: 40px;
   display: block;
   text-align: center;
   width: 100%;
