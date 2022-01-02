@@ -22,7 +22,7 @@ Background
 body {
   display: block;
   background-color: white;
-  margin: 1pc 15pc;
+  margin: 0pc 15pc;
 }
 
 /*
@@ -34,7 +34,7 @@ Heading and navigation bar
  .heading {
   display: block;
   background-color: rgb(48, 114, 57);
-  margin: 2pc auto;
+  margin: 1pc auto;
   text-align: center;
 }
 
