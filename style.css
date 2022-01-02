@@ -31,7 +31,7 @@ Heading and navigation bar
 *********
 */
 
- #heading {
+ .heading {
   display: block;
   background-color: rgb(48, 114, 57);
   margin: 2pc auto;
@@ -54,7 +54,7 @@ h1:hover {
 
 h3 {
   text-align: left;
-  color: white;
+  color: rgb(48, 114, 57);
   font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
 }
